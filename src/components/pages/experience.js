@@ -1,15 +1,13 @@
-import React from 'react'
-import { DescriptionText, MainBox, SkillsBox, StyledGrid, StyledGridItem, StyledIcon, StyledPaper, StyledSection, TimeBox } from '../styles/styles'
 import { Box } from '@material-ui/core'
-import { StyledText } from '../styles/styles'
 import { amber } from '@material-ui/core/colors'
-import { ChevronRight } from '@material-ui/icons'
-import PixIcon from '@mui/icons-material/Pix';
+import PixIcon from '@mui/icons-material/Pix'
+import React from 'react'
 import { experience } from '../navbar/data'
+import { DescriptionText, MainBox, SkillsBox, StyledGrid, StyledGridItem, StyledIcon, StyledPaper, StyledSection, StyledText, TimeBox } from '../styles/styles'
 
 const Experience = () => {
     return (
-        <MainBox mtop={50}>
+        <MainBox mtop={70}>
             <Box align='center'>
                 <StyledText mcolor={"#fff"}>My <b style={{ color: '#ff8f00' }}>Work Experience</b> </StyledText>
             </Box>

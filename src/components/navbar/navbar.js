@@ -82,7 +82,7 @@ const Navbar = () => {
               </Menulinks>
             ))}
           </Appmenu>
-          <StyledContact variant='caption'>+254 798 663 646  </StyledContact>
+          <StyledContact variant='caption1'>+254 798 663 646  </StyledContact>
           <StyledAvatar mright={'5%'}><StyledIcon><PhoneInTalkOutlined /></StyledIcon></StyledAvatar>
         </StyledToolbar>
       </Container>

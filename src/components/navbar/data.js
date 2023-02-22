@@ -57,9 +57,10 @@ export const scoredata = [
         id: 4,
         number: '10+',
         value: 'CUSTOMER REVIEWS',
-        stars: 3,
+        stars: 4,
     },
 ]
+
 export const skills = [
     {
         id: 1,
@@ -68,15 +69,21 @@ export const skills = [
 
     },
     {
+        id: 13,
+        skill: 'Next Js',
+        level: 90,
+
+    },
+    {
         id: 2,
         skill: 'React Js',
-        level: 85,
+        level: 90,
 
     },
     {
         id: 3,
         skill: 'Javascript',
-        level: 80,
+        level: 90,
 
     },
     {
@@ -88,7 +95,7 @@ export const skills = [
     {
         id: 5,
         skill: 'Python',
-        level: 75,
+        level: 85,
 
     },
     {
@@ -100,7 +107,7 @@ export const skills = [
     {
         id: 7,
         skill: 'PHP',
-        level: 80,
+        level: 90,
 
     },
     {
@@ -118,7 +125,7 @@ export const skills = [
     {
         id: 10,
         skill: 'NO-SQL DATABASES',
-        level: 70,
+        level: 85,
 
     },
     {
@@ -304,7 +311,6 @@ export const contacts = [
         icon: <PhoneInTalkOutlined />,
     }
 ]
-
 
 export const socialLinks = [
     {

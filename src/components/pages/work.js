@@ -17,7 +17,7 @@ const Work = () => {
         setShowId(0);
     }
     return (
-        <MainBox mtop={50}>
+        <MainBox mtop={70}>
             <Box align='center'>
                 <StyledText mcolor={"#fff"}>My <b style={{ color: '#ff8f00' }}>Projects</b> </StyledText>
                 <StyledText mbold mcolor={"#fff"} mfontsize={18} tstyle={'normal'} mtop={10} mvariant>

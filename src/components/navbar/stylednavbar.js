@@ -9,11 +9,13 @@ export const Appbar = styled(AppBar)(({ theme }) => ({
     margin: '0 10px',
     flexDirection: 'row',
     padding: '5px 10px',
-    position: 'static',
+    position: 'fixed',
+    top: 0,
     boxShadow: 'none',
     backgroundColor: '#0A1929',
-    width: "inherit",
+    width: "100%",
     color: 'white',
+    // overflow: 'hidden',
 
     [theme.breakpoints.down('sm')]: {
         padding: 0,
@@ -51,6 +53,7 @@ export const MinimizedBar = styled(Toolbar)(({ theme }) => ({
 export const StyledHeader = styled(Typography)(({ theme }) => ({
     marginRight: '10%',
     marginLeft: 40,
+    marginBottom: 5,
     fontFamily: 'Fira Sans',
     fontSize: 30,
     fontWeight: 'bold',
@@ -59,13 +62,13 @@ export const StyledHeader = styled(Typography)(({ theme }) => ({
     [theme.breakpoints.down('sm')]: {
         fontSize: 30,
         marginRight: 0,
-        marginLeft: 0
+        marginLeft: 0,
+        marginBottom: 0
     }
 }));
 export const StyledContact = styled(Typography)(({ theme }) => ({
     marginRight: 7,
     fontSize: 20,
-    // color: amber[800],
     color: '#ff8f00',
     textDecoration: 'none',
     [theme.breakpoints.down('sm')]: {
@@ -85,7 +88,7 @@ export const Appmenu = styled(Box)(({ theme }) => ({
 }));
 
 export const Menulinks = styled(Typography)(({ theme, mcolor }) => ({
-    color: mcolor ? mcolor : 'white',
+    color: mcolor ? mcolor : '#fff',
     fontSize: 14,
     textDecoration: 'none',
     padding: '0 30px',

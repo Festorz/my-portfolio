@@ -54,7 +54,7 @@ const About = () => {
     ]
 
     return (
-        <MainBox mtop={50}>
+        <MainBox mtop={70}>
             <Box align='center'>
                 <StyledText mcolor={"#fff"}>About <b style={{ color: '#ff8f00' }}>Me</b> </StyledText>
             </Box>
@@ -75,14 +75,14 @@ const About = () => {
 
                     <DescBox>
                         <DescriptionText mvariant={true} mbold mright={10}>Stack: </DescriptionText>
-                        <DescriptionText mcolor={'#e3f2fd'}>Nodejs, React Js, JavaScript, Python, Django,
+                        <DescriptionText mcolor={'#e3f2fd'}>Nodejs, Next Js, React Js, JavaScript, Python, Django,
                             PHP, Laravel, Flutter, REST APIS, SQL, NO-SQL, CSS, HTML,
                             Linux, Git, Heroku, Cpanel web hosting</DescriptionText>
                     </DescBox>
 
                     <DescBox>
                         <DescriptionText mvariant={true} mbold mright={10}>Post :</DescriptionText>
-                        <DescriptionText mcolor={'#e3f2fd'}>Full Stack Software Developer</DescriptionText>
+                        <DescriptionText mcolor={'#e3f2fd'}>Software Engineer</DescriptionText>
                     </DescBox>
 
                     <DescBox>
@@ -97,11 +97,11 @@ const About = () => {
 
                     <DescBox>
                         <DescriptionText mvariant={true} mbold mright={10}>LinkedIn :</DescriptionText>
-                        <DescriptionText mcolor={'#e3f2fd'} component='a' href="https://www.linkedin.com/in/festus-kirui-566451205/">My Profile</DescriptionText>
+                        <DescriptionText component='a' href="https://www.linkedin.com/in/festus-kirui-566451205/">My Profile</DescriptionText>
                     </DescBox>
                     <DescBox>
                         <DescriptionText mvariant={true} mbold mright={10}>Github :</DescriptionText>
-                        <DescriptionText mcolor={'#e3f2fd'} component='a' href="https://github.com/festorz">My Projects</DescriptionText>
+                        <DescriptionText component='a' href="https://github.com/festorz">My Projects</DescriptionText>
                     </DescBox>
                 </StyledPaper>
                 <StyledPaper>
@@ -129,28 +129,26 @@ const About = () => {
             <Box align='center'>
                 <StyledText mfontsize={35} mcolor={"#fff"} mtop={50}>My skills</StyledText>
             </Box>
-            <Box align='center'>
-                <StyledPaper mwidth={'100%'}>
-                    <StyledGrid container>
-                        {skills.map((data) => (
-                            <StyledGridItem item key={data.id}>
-                                <DescriptionText malign='start' transform='uppercase' mvariant={true} mbold mfontsize={15} mcolor={amber[800]}>{data.skill}</DescriptionText>
-                                <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                                    <Box sx={{ width: '100%', mr: 1, ml: 1 }}>
-                                        <ColoredBox >
-                                            <ColoredBox mcolor={'#27AE60'} mwidth={data.level}>{data.level}</ColoredBox>
-                                        </ColoredBox>
-                                    </Box>
-                                    <Box sx={{ minWidth: 35 }}>
-                                        <StyledText mfontsize={15} mcolor={'#fff'} mbold>{data.level}%</StyledText>
-                                    </Box>
+            <StyledPaper mwidth={'inherit'}>
+                <StyledGrid container>
+                    {skills.map((data) => (
+                        <StyledGridItem item key={data.id}>
+                            <DescriptionText malign='start' transform='uppercase' mvariant={true} mbold mfontsize={15} mcolor={amber[800]}>{data.skill}</DescriptionText>
+                            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                                <Box sx={{ width: '100%', mr: 1, ml: 1 }}>
+                                    <ColoredBox >
+                                        <ColoredBox mcolor={'#27AE60'} mwidth={data.level}>{data.level}</ColoredBox>
+                                    </ColoredBox>
                                 </Box>
-                            </StyledGridItem>
+                                <Box sx={{ minWidth: 35 }}>
+                                    <StyledText mfontsize={15} mcolor={'#fff'} mbold>{data.level}%</StyledText>
+                                </Box>
+                            </Box>
+                        </StyledGridItem>
 
-                        ))}
-                    </StyledGrid>
-                </StyledPaper>
-            </Box>
+                    ))}
+                </StyledGrid>
+            </StyledPaper>
 
 
             <Box align='center'>

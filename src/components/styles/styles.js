@@ -24,7 +24,7 @@ export const MainBox = styled(Box)(({ theme, mtop }) => ({
     height: '100%',
     [theme.breakpoints.down('sm')]: {
         margin: '10px 10px 10px 10px',
-        marginTop: mtop ? mtop - 20 : 20,
+        marginTop: mtop ? mtop - 5 : 50,
     }
 }));
 
@@ -55,7 +55,7 @@ export const StyledPaper = styled(Paper)(({ theme, mwidth, mtop }) => ({
         padding: 0,
         justifyContent: 'initial',
         width: 'inherit',
-        marginTop: mtop ? mtop - 5 : 5,
+        // marginTop: mtop ? mtop - 5 : 5,
 
     }
 }));
@@ -92,8 +92,8 @@ export const StyledColumn = styled(Box)(({ theme, mtop }) => ({
 
 export const StyledAvatar = styled(Avatar)(({ theme, mright }) => ({
     marginRight: mright,
-    backgroundColor: '#fff',
-    marginBottom: 15,
+    backgroundColor: 'white',
+    marginBottom: 20,
     [theme.breakpoints.down('sm')]: {
         marginBottom: 0,
         // flexDirection: 'column-reverse',
@@ -156,14 +156,14 @@ export const DescBox = styled(Box)(({ theme, mjustify }) => ({
     }
 }));
 
-export const DescriptionText = styled(Typography)(({ theme, mright, mcolor, mbold, mvariant, malign, transform, mfontsize, mtop }) => ({
+export const DescriptionText = styled(Typography)(({ theme, mright, mcolor, mbold, mvariant, mdecoration, malign, transform, mfontsize, mtop }) => ({
     fontSize: mfontsize ? mfontsize : 18,
     marginRight: mright,
     fontWeight: mbold ? 'bold' : 'normal',
     fontVariant: mvariant ? 'body1' : 'caption',
     color: mcolor ? mcolor : amber[800],
     textAlign: malign ? 'start' : '',
-    textDecoration: 'none',
+    textDecoration: mdecoration,
     marginTop: mtop,
     textTransform: transform ? transform : '',
     [theme.breakpoints.down('sm')]: {
@@ -221,7 +221,7 @@ export const ColoredBox = styled(Box)(({ theme, mcolor, mwidth }) => ({
     textAlign: 'start',
     color: 'transparent',
     [theme.breakpoints.down('sm')]: {
-        width: mwidth ? mwidth : '100%',
+        width: mwidth ? `${mwidth}%` : '100%',
     }
 }));
 

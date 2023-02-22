@@ -12,10 +12,10 @@ const Home = () => {
           src={my_pic}
         />
         <StyledColumn>
-          <StyledText mfontsize={45} mcolor={'#fff'} >Hey There,</StyledText>
-          <StyledText mfontsize={45}><b style={{ color: '#27AE60' }}>I'm</b> Festas Kibet Kirui.</StyledText>
-          <StyledText align='' mcolor={'#fff'} mfontsize={45}>A full stack <br /> software <br /> developer.</StyledText>
-          <StyledText mcolor={'#fff'} mfontsize={18} mtop={20} mbold>Specialized in web and mobile applications development. <br />
+          <StyledText mfontsize={45} mcolor={'#e3f2fd'} >Hey There,</StyledText>
+          <StyledText mfontsize={45}><b style={{ color: '#27AE60' }}>I'm</b> Festas Kibet Kirui</StyledText>
+          <StyledText align='' mcolor={'#e3f2fd'} mfontsize={45}>A full stack <br /> software <br /> Engineer.</StyledText>
+          <StyledText mcolor={'#e3f2fd'} mfontsize={18} mtop={20} mbold>I have specialized in web and mobile applications development. <br />
             I write clean codes of high quality and provide robust applications.</StyledText>
         </StyledColumn>
       </StyledSection>
