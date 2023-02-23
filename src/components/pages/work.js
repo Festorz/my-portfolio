@@ -29,7 +29,7 @@ const Work = () => {
                     {projects.map((project) => (
                         <StyledGridItem item mwidth={'30%'} key={project.id} >
                             <ProjectBox onMouseOver={() => handleMouseOver(project.id)}
-                                onMouseLeave={handleMouseLeave}>
+                                onMouseLeave={handleMouseLeave} onClick={handleMouseLeave}>
                                 <ProjectImage component="img" alt={project.label}
                                     src={project.image} />
                                 {show && showId === project.id && (
