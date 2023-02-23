@@ -285,7 +285,7 @@ export const projects = [
         id: 5,
         label: 'Correct Scores Website',
         image: correctscores,
-        github: 'https://github.com/Festorz/CorrectScore',
+        github: 'https://github.com/Festorz/football-analysis-application-django',
         server: '',
         tech: 'Django, HTML, CSS, JavaScript'
     },
