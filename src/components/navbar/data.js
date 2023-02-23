@@ -250,7 +250,7 @@ export const projects = [
         id: 1,
         label: 'Breakfast Recipes App',
         image: breakfast,
-        github: '',
+        github: 'https://github.com/Festorz/BreakFast-recipes-app---Flutter',
         server: 'https://play.google.com/store/apps/details?id=com.coolrecipes.breakfast.recipes',
         tech: 'Dart Flutter, API'
 
@@ -268,7 +268,7 @@ export const projects = [
         id: 3,
         label: 'Mkulima Business App',
         image: mkulima,
-        github: '',
+        github: 'https://github.com/Festorz/Farming-App---Dart-Flutter',
         server: 'https://play.google.com/store/apps/details?id=com.jordandevs.apps.mkulima',
         tech: 'NodeJS, Flutter'
 
