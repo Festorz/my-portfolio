@@ -92,7 +92,7 @@ const About = () => {
 
                     <DescBox>
                         <DescriptionText mvariant={true} mbold mright={10}>Location :</DescriptionText>
-                        <DescriptionText mcolor={'#e3f2fd'}>Nakuru, Kenya</DescriptionText>
+                        <DescriptionText mcolor={'#e3f2fd'}>Nairobi, Kenya</DescriptionText>
                     </DescBox>
 
                     <DescBox>

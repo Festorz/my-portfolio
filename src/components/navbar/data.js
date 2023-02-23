@@ -295,7 +295,7 @@ export const contacts = [
     {
         id: 1,
         title: 'Location',
-        label: 'Nakuru Kenya',
+        label: 'Nairobi Kenya',
         icon: <LocationOn />,
     },
     {
