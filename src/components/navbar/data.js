@@ -292,8 +292,8 @@ export const projects = [
     },
     {
         id: 6,
-        label: 'Farming App Server Node JS',
-        image: correctscores,
+        label: 'Farming App Server',
+        image: farming_server,
         github: 'https://github.com/Festorz/Farming-App-Server---Node-Js',
         server: 'https://play.google.com/store/apps/details?id=com.jordandevs.apps.mkulima',
         tech: 'NodeJS, Express, AWS Services'
