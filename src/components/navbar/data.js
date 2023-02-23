@@ -3,6 +3,7 @@ import breakfast from '../../data/images/breakfast.png'
 import mkulima from '../../data/images/mkulima.png'
 import insta from '../../data/images/insta.png'
 import correctscores from '../../data/images/correctscores.png'
+import farming_server from '../../data/images/Farming app server.png'
 import { LocationOn, Email, PhoneInTalkOutlined, GitHub, LinkedIn, Facebook, Twitter } from '@material-ui/icons'
 
 export const pages = [
@@ -270,7 +271,7 @@ export const projects = [
         image: mkulima,
         github: 'https://github.com/Festorz/Farming-App---Dart-Flutter',
         server: 'https://play.google.com/store/apps/details?id=com.jordandevs.apps.mkulima',
-        tech: 'NodeJS, Flutter'
+        tech: 'NodeJS, Express, AWS, Flutter, '
 
     },
     {
@@ -288,6 +289,14 @@ export const projects = [
         github: 'https://github.com/Festorz/football-analysis-application-django',
         server: '',
         tech: 'Django, HTML, CSS, JavaScript'
+    },
+    {
+        id: 6,
+        label: 'Farming App Server Node JS',
+        image: correctscores,
+        github: 'https://github.com/Festorz/Farming-App-Server---Node-Js',
+        server: 'https://play.google.com/store/apps/details?id=com.jordandevs.apps.mkulima',
+        tech: 'NodeJS, Express, AWS Services'
     },
 ]
 
