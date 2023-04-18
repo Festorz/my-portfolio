@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.8b66cbf7.css",
-    "main.js": "/my-portfolio/static/js/main.d32c5453.js",
+    "main.js": "/my-portfolio/static/js/main.b54791ed.js",
     "static/media/Farming app server.png": "/my-portfolio/static/media/Farming app server.703397ad38b72bd54e48.png",
     "static/media/correctscores.png": "/my-portfolio/static/media/correctscores.6a970a51d0b1e8bf4908.png",
     "static/media/mpic.png": "/my-portfolio/static/media/mpic.7517f158695da2f3f453.png",
@@ -11,10 +11,10 @@
     "static/media/mkulima.png": "/my-portfolio/static/media/mkulima.512551060995d51ff5b1.png",
     "index.html": "/my-portfolio/index.html",
     "main.8b66cbf7.css.map": "/my-portfolio/static/css/main.8b66cbf7.css.map",
-    "main.d32c5453.js.map": "/my-portfolio/static/js/main.d32c5453.js.map"
+    "main.b54791ed.js.map": "/my-portfolio/static/js/main.b54791ed.js.map"
   },
   "entrypoints": [
     "static/css/main.8b66cbf7.css",
-    "static/js/main.d32c5453.js"
+    "static/js/main.b54791ed.js"
   ]
 }
