@@ -87,11 +87,6 @@ export const skills = [
     level: 90,
   },
   {
-    id: 3,
-    skill: "Javascript",
-    level: 90,
-  },
-  {
     id: 4,
     skill: "Flutter for Android & IOS apps",
     level: 90,
@@ -117,23 +112,23 @@ export const skills = [
     level: 90,
   },
   {
-    id: 9,
-    skill: "SQL DATABASES",
+    id: 13,
+    skill: "Spring Boot",
     level: 90,
   },
   {
-    id: 10,
-    skill: "NO-SQL DATABASES",
-    level: 85,
+    id: 9,
+    skill: "SQL & No-SQL DATABASES",
+    level: 90,
+  },
+  {
+    id: 14,
+    skill: "DevOps",
+    level: 90,
   },
   {
     id: 11,
-    skill: "AWS WEB SERVICES",
-    level: 90,
-  },
-  {
-    id: 12,
-    skill: "git",
+    skill: "Cloud Computing",
     level: 90,
   },
 ];
@@ -141,7 +136,7 @@ export const skills = [
 export const experience = [
   {
     id: 1,
-    role: "Software Engineer",
+    role: "SOFTWARE ENGINEER",
     duration: "JAN 2021 - Current",
     institution: "Icore Information Systems",
     duties: [

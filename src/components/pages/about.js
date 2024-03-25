@@ -25,7 +25,7 @@ const About = () => {
   const education = [
     {
       id: 1,
-      role: "APPLIED COMPUTER SCIENCE DEGREE",
+      role: "Bsc. APPLIED COMPUTER SCIENCE",
       duration: "SEPT 2016 - APR 2020",
       institution: "KISII UNIVERSITY",
       skills: [
@@ -90,12 +90,12 @@ const About = () => {
               festaskirui@gmail.com
             </DescriptionText>
           </DescBox>
-          <DescBox>
+          {/* <DescBox>
             <DescriptionText mvariant={true} mbold mright={10}>
               Age :
             </DescriptionText>
-            <DescriptionText mcolor={"#e3f2fd"}>25</DescriptionText>
-          </DescBox>
+            <DescriptionText mcolor={"#e3f2fd"}>27</DescriptionText>
+          </DescBox> */}
 
           <DescBox>
             <DescriptionText mvariant={true} mbold mright={10}>
@@ -109,7 +109,7 @@ const About = () => {
 
           <DescBox>
             <DescriptionText mvariant={true} mbold mright={10}>
-              Post :
+              Title :
             </DescriptionText>
             <DescriptionText mcolor={"#e3f2fd"}>
               Software Engineer
