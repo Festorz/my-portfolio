@@ -48,25 +48,25 @@ export const scoredata = [
     id: 1,
     number: "50+",
     value: "PROJECTS COMPLETED",
-    stars: 4,
+    stars: 5,
   },
   {
     id: 2,
     number: "4+",
     value: "YEARS OF EXPERIENCE",
-    stars: 4,
+    stars: 5,
   },
   {
     id: 3,
-    number: "10+",
+    number: "30+",
     value: "HAPPY CLIENTS",
-    stars: 4,
+    stars: 5,
   },
   {
     id: 4,
-    number: "10+",
+    number: "50+",
     value: "CUSTOMER REVIEWS",
-    stars: 4,
+    stars: 5,
   },
 ];
 
@@ -142,7 +142,11 @@ export const experience = [
     duties: [
       {
         id: 1,
-        role: "Developed and maintained PHP-based web applications using Laravel and Code-igniter frameworks.",
+        role: "Designed, developed and maintained web applications using Node Js, ReactJs, Django, spring boot, Laravel and Codeigniter.",
+      },
+      {
+        id: 6,
+        role: "Designed and developed mobile applications using Flutter.",
       },
       {
         id: 2,
@@ -164,59 +168,59 @@ export const experience = [
   },
   {
     id: 1,
-    role: "WEB APPLICATIONS DEVELOPER",
+    role: "WEB DEVELOPER",
     duration: "JAN 2019 - FEB 2024",
-    institution: "Freelancing",
+    institution: "Self-Employed",
     duties: [
       {
         id: 1,
-        role: "Designed and developed fullstack web applications using React, Node.js, Django incorporating SQL & NO-SQL databases including MYSQL and MongoDB.",
+        role: "Designed and developed fullstack web applications using React, Node.js, Django incorporating SQL & NO-SQL databases.",
       },
       {
         id: 2,
-        role: "Implement responsive designs and optimize web application performance for optimal user experience.",
+        role: "Implemented responsive designs and optimized performance for optimal user experience.",
       },
       {
         id: 3,
-        role: "Collaborated with cross-functional teams, including UX/UI designers and product managers, to deliver software solutions that meet the client needs.",
+        role: "Collaborated with cross-functional teams, including UX/UI designers and product managers, to deliver solutions that meet the client needs.",
       },
       {
         id: 4,
-        role: "Troubleshooted and debugged bugs in software applications, implementing solutions and improvements to enhance software functionality and performance",
+        role: "Troubleshooted and debugged bugs in code, implementing solutions and improvements to enhance functionality and performance",
       },
       {
         id: 5,
-        role: "Developed and maintained APIs for integration with third-party systems.",
+        role: "Developed and maintained APIs for integration with frontend applications.",
       },
     ],
   },
   {
     id: 3,
-    role: "MOBILE APPLICATIONS DEVELOPER",
+    role: "FLUTTER DEVELOPER",
     duration: "JAN 2019 - FEB 2024",
-    institution: "Freelancing",
+    institution: "Self-employed",
     duties: [
       {
         id: 1,
-        role: "Design and develop mobile applications using Flutter and Java with SQL databases including MYSQL and PostgreSQL.",
+        role: "Designed and developed mobile applications using Flutter.",
       },
       {
         id: 2,
-        role: "Implemented responsive designs and optimize mobile application performance for optimal user experience",
+        role: "Implemented responsive designs and optimized application performance for optimal user experience",
       },
       {
         id: 3,
-        role: "Wrote and debugged tests in mobile applications, implementing solutions and improvements to enhance software functionality and performance.",
+        role: "Wrote and debugged tests in flutter applications, implementing solutions and improvements to enhance app functionality and performance.",
       },
       {
         id: 4,
-        role: "Developed REST APIs for internal and external use, integrating with various mobile applications.",
+        role: "Developed REST APIs for internal and external use, integrating with flutter applications.",
       },
     ],
   },
   {
     id: 4,
-    role: "ICT ATTACHEE",
+    role: "ICT INTERNSHIP",
     duration: "APR 2019 - AUG 2019",
     institution: "Kenya National Library Nakuru",
     duties: [
