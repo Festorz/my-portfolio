@@ -46,7 +46,7 @@ export const pages = [
 export const scoredata = [
   {
     id: 1,
-    number: "50+",
+    number: "20+",
     value: "PROJECTS COMPLETED",
     stars: 5,
   },
@@ -58,13 +58,13 @@ export const scoredata = [
   },
   {
     id: 3,
-    number: "30+",
+    number: "20+",
     value: "HAPPY CLIENTS",
     stars: 5,
   },
   {
     id: 4,
-    number: "50+",
+    number: "30+",
     value: "CUSTOMER REVIEWS",
     stars: 5,
   },
@@ -77,67 +77,97 @@ export const skills = [
     level: 90,
   },
   {
-    id: 13,
-    skill: "Next Js",
-    level: 90,
-  },
-  {
-    id: 2,
-    skill: "React Js",
-    level: 90,
-  },
-  {
     id: 4,
-    skill: "Flutter for Android & IOS apps",
+    skill: "Flutter Dart",
     level: 90,
-  },
-  {
-    id: 5,
-    skill: "Python",
-    level: 85,
   },
   {
     id: 6,
     skill: "DJango",
-    level: 90,
-  },
-  {
-    id: 7,
-    skill: "PHP",
-    level: 90,
-  },
-  {
-    id: 8,
-    skill: "Laravel",
-    level: 90,
-  },
-  {
-    id: 13,
-    skill: "Spring Boot",
-    level: 90,
+    level: 85,
   },
   {
     id: 9,
     skill: "SQL & No-SQL DATABASES",
-    level: 90,
+    level: 80,
   },
   {
-    id: 14,
-    skill: "DevOps",
-    level: 90,
+    id: 13,
+    skill: "Next Js",
+    level: 80,
   },
   {
-    id: 11,
-    skill: "Cloud Computing",
-    level: 90,
+    id: 2,
+    skill: "React Js",
+    level: 80,
   },
+  {
+    id: 5,
+    skill: "Python",
+    level: 70,
+  },
+  {
+    id: 7,
+    skill: "PHP",
+    level: 70,
+  },
+  {
+    id: 8,
+    skill: "Laravel",
+    level: 70,
+  },
+  {
+    id: 13,
+    skill: "Spring Boot",
+    level: 60,
+  }
 ];
 
 export const experience = [
   {
+    id: 5,
+    role: "SOFTWARE ENGINEER",
+    duration: "APRIL 2024 - CURRENT",
+    institution: "WEBMASTERS (K) Ltd",
+    duties: [
+      {
+        id: 1,
+        role: "Undertook Projects Lead Role in a number of projects developments from conception to deployment in different platforms including appstore, playstore and amazon using docker and kurbernetes",
+      },
+      {
+        id: 6,
+        role: "Maintained and upgraded existing systems using diverse technologies including react native,django, NodeJs, laravel and flutter while utilizing enterprise web services including shared hosting, amazon, appstore and playstore.",
+      },
+      {
+        id: 2,
+        role: "Worked on database design and optimization, creating and implementing complex SQL queries to extract and manipulate data.",
+      },
+      {
+        id: 3,
+        role: "Designed and developed enteprise web and mobile applications from conception to deployment using node Js and flutter utilizing enterprise web services including shared hosting, amazon, appstore and playstore",
+      },
+      {
+        id: 4,
+        role: "Worked on database design and optimization, creating and implementing complex SQL queries to extract and utilize data.",
+      },
+      {
+        id: 5,
+        role: "Developed RESTful web services for internal and external use, integrating with various enterprise systems.",
+      },
+      {
+        id: 7,
+        role: "Led projects from conception to deployment, ensuring timely delivery and high-quality software solutions.",
+      },
+      {
+        id: 8,
+        role: "Participated in code reviews and provided constructive feedback to improve team members' code quality.",
+      },
+    ],
+  },
+  {
     id: 1,
     role: "SOFTWARE ENGINEER",
-    duration: "JAN 2021 - Current",
+    duration: "JAN 2021 - APRIL 2024",
     institution: "Icore Information Systems",
     duties: [
       {
