@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.8b66cbf7.css",
-    "main.js": "/my-portfolio/static/js/main.ad516068.js",
+    "main.js": "/my-portfolio/static/js/main.aced9ccf.js",
     "static/media/Farming app server.png": "/my-portfolio/static/media/Farming app server.703397ad38b72bd54e48.png",
+    "static/media/mpic.jpeg": "/my-portfolio/static/media/mpic.a0f5a144d90d78e18973.jpeg",
     "static/media/breakfast.png": "/my-portfolio/static/media/breakfast.8f71749f86e4e437c2cc.png",
     "static/media/tips_predictions.png": "/my-portfolio/static/media/tips_predictions.a3130e8f0388bc3054cc.png",
     "static/media/xcoin.png": "/my-portfolio/static/media/xcoin.b7ccb79faf0ee4a0450d.png",
     "static/media/mkulima.png": "/my-portfolio/static/media/mkulima.512551060995d51ff5b1.png",
     "static/media/bizblock.png": "/my-portfolio/static/media/bizblock.a43c087f26e7d25fe8ac.png",
-    "static/media/mpic.jpeg": "/my-portfolio/static/media/mpic.5072b98431bc1c33257e.jpeg",
     "index.html": "/my-portfolio/index.html",
     "main.8b66cbf7.css.map": "/my-portfolio/static/css/main.8b66cbf7.css.map",
-    "main.ad516068.js.map": "/my-portfolio/static/js/main.ad516068.js.map"
+    "main.aced9ccf.js.map": "/my-portfolio/static/js/main.aced9ccf.js.map"
   },
   "entrypoints": [
     "static/css/main.8b66cbf7.css",
-    "static/js/main.ad516068.js"
+    "static/js/main.aced9ccf.js"
   ]
 }
