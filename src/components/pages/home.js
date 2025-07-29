@@ -1,5 +1,5 @@
 import React from "react";
-import my_pic from "../../data/images/mpic.jpeg";
+import my_pic from "../../data/images/mpic.png";
 import {
   MainBox,
   StyledColumn,

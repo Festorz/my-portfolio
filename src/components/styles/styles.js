@@ -115,7 +115,7 @@ export const SocialIcons = styled(Box)(({ theme, mcolor }) => ({
 }));
 
 export const StyledImage = styled(Box)(({ theme }) => ({
-  width: 300,
+  width: 500,
   height: "max-height",
   borderRadius: 10,
   [theme.breakpoints.down("sm")]: {
