@@ -21,10 +21,11 @@ const Home = () => {
             <b style={{ color: "#27AE60" }}>I'm</b> Festas Kibet Kirui
           </StyledText>
           <StyledText align="" mcolor={"#e3f2fd"} mfontsize={45}>
-            A Backend and Mobile software <br /> Engineer.
+            Senior Backend & Mobile Engineer
           </StyledText>
           <StyledText mcolor={"#e3f2fd"} mfontsize={18} mtop={20} mbold>
-            I have specialized in both Backend & mobile development.
+            I design and build scalable backend systems, REST APIs, real-time
+            applications and Flutter mobile apps used in production.
           </StyledText>
         </StyledColumn>
       </StyledSection>

@@ -4,6 +4,7 @@ import mkulima from "../../data/images/mkulima.png";
 import xcoin from "../../data/images/xcoin.png";
 import farming_server from "../../data/images/Farming app server.png";
 import bizBlock from "../../data/images/bizblock.png";
+import haulpal from "../../data/images/haulPal.png";
 
 import {
   LocationOn,
@@ -73,7 +74,7 @@ export const scoredata = [
 export const skills = [
   {
     id: 1,
-    skill: "Node Js",
+    skill: "Node Js With Express & Typescript",
     level: 90,
   },
   {
@@ -89,7 +90,7 @@ export const skills = [
   {
     id: 9,
     skill: "SQL & No-SQL DATABASES",
-    level: 80,
+    level: 90,
   },
   {
     id: 13,
@@ -120,14 +121,54 @@ export const skills = [
     id: 13,
     skill: "Spring Boot",
     level: 60,
-  }
+  },
 ];
 
 export const experience = [
   {
+    id: 6,
+    role: "SOFTWARE ENGINEER",
+    duration: "JAN 2026 - CURRENT",
+    institution: "HAULPAL",
+    duties: [
+      {
+        id: 1,
+        role: "Architected and developed the HaulPal logistics platform, leading the project from system design and backend architecture to mobile application deployment.",
+      },
+      {
+        id: 2,
+        role: "Designed and implemented scalable microservices using Node.js, TypeScript and Express, building secure RESTful APIs with authentication, authorization and role-based access control.",
+      },
+      {
+        id: 3,
+        role: "Developed the cross-platform Flutter mobile application, implementing real-time delivery tracking, bidding, notifications, authentication, payments and offline capabilities.",
+      },
+      {
+        id: 4,
+        role: "Designed, optimized and maintained PostgreSQL databases, implementing efficient schemas, indexing, complex SQL queries and performance optimization.",
+      },
+      {
+        id: 5,
+        role: "Built real-time communication features using WebSockets, Kafka and Redis for live driver tracking, delivery updates, notifications and event-driven processing.",
+      },
+      {
+        id: 6,
+        role: "Integrated third-party services including payment gateways, push notifications, mapping, routing and cloud storage to deliver a complete logistics solution.",
+      },
+      {
+        id: 7,
+        role: "Containerized and deployed backend services using Docker, managing production environments and CI/CD workflows for reliable application delivery.",
+      },
+      {
+        id: 8,
+        role: "Maintained clean architecture, API documentation, code reviews, testing and continuous improvements to ensure scalability, security and maintainability.",
+      },
+    ],
+  },
+  {
     id: 5,
     role: "SOFTWARE ENGINEER",
-    duration: "APRIL 2024 - CURRENT",
+    duration: "APRIL 2024 - JAN 2026",
     institution: "WEBMASTERS (K) Ltd",
     duties: [
       {
@@ -291,6 +332,14 @@ export const experience = [
 ];
 
 export const projects = [
+  {
+    id: 12,
+    label: "HaulPal Logistics App",
+    image: haulpal,
+    github: "https://github.com/Festorz",
+    server: "https://haulpal.africa",
+    tech: "NodeJS, TypeScript, Express, Flutter, PostgreSQL, WebSockets, Kafka, Redis, Docker",
+  },
   {
     id: 11,
     label: "BizBlock App",

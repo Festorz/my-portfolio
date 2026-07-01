@@ -102,8 +102,8 @@ const About = () => {
               Stack:{" "}
             </DescriptionText>
             <DescriptionText mcolor={"#e3f2fd"}>
-              Nodejs, Next Js, React Js, JavaScript, Python, Django, PHP,
-              Laravel, Flutter,Spring boot, SQL & NO-SQL database, CSS, HTML
+              NodeJS, Typescript, Express, NextJS, ReactJS, Flutter, PostgreSQL,
+              Redis, Kafka, Docker
             </DescriptionText>
           </DescBox>
 
@@ -112,7 +112,7 @@ const About = () => {
               Title :
             </DescriptionText>
             <DescriptionText mcolor={"#e3f2fd"}>
-              Software Engineer
+              Senior Software Engineer
             </DescriptionText>
           </DescBox>
 
