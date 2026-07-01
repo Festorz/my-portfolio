@@ -53,7 +53,7 @@ export const scoredata = [
   },
   {
     id: 2,
-    number: "4+",
+    number: "5+",
     value: "YEARS OF EXPERIENCE",
     stars: 5,
   },
